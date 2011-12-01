@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Prashanth Bala In Da Haus | About
+		</title>
+		
+		<style type="text/css">
+			body
+			{
+				margin:20px
+				background: #eeeeee;
+				text-align: left;
+				padding: 30px;
+				background-attachment: fixed
+			}
+			/* background-attachment: scroll */
+			p
+			{
+				font-family:"verdana";
+				font-size:50px;
+			}
+			p.special_letter:first-letter 
+			{
+				font-size: 110px;
+				font-weight: bold;
+				color: #ff0000;
+			}
+
+			.bigBlue
+			{
+				font-size:100px;
+				color: #008080;
+				font-weight: bold;
+			}
+
+			#bb1, #bb1 *
+			{
+				width: 80%;
+				margin: auto;
+				padding: 20px;
+				background: #eeeeee;
+				list-style-type: circle;
+				color: blue;
+			}
+	
+			.zedsin, .zedsin *
+			{
+				color: red !important;
+				font-size: 60px;
+				font-weight: bold;
+			}
+
+			a:link {color: #009901;}
+			#1234 a:link {color: #009900;}
+			a:visited {color: #999999;}
+			a:hover {color: #333333;}
+			a:focus {color: #333333;}
+			a:active {color: #009900;}
+
+
+		</style>
+	</head>
+	
+	<body>
+	
+		<p> There have been few <span class="bigBlue"><a href="http://tiny.cc/cmu">Ballers</a></span> like the guys from <span class="zedsin"><a href="http://www.zedsin.com"> Zed Sin </a> ~ </span>, rising entrepreneurs stand up! </p> 
+		
+		<div id="bb1">
+		
+		<p class="special_letter"> Let's smoke some and cheers to that! </p>
+		
+		</div>
+		
+	</body>
+	
+</html>
